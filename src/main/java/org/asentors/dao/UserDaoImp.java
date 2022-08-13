@@ -1,13 +1,10 @@
-package org.xrave.dao;
+package org.asentors.dao;
 
-import org.hibernate.exception.SQLGrammarException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 
-import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.transaction.annotation.Transactional;
-import org.xrave.model.User;
+import org.asentors.model.User;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

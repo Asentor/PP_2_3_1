@@ -1,4 +1,4 @@
-package org.xrave.controller;
+package org.asentors.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,8 +6,8 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.xrave.model.User;
-import org.xrave.service.UserService;
+import org.asentors.model.User;
+import org.asentors.service.UserService;
 
 @Controller
 public class UserController {

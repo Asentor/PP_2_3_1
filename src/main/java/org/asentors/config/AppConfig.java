@@ -1,4 +1,4 @@
-package org.xrave.config;
+package org.asentors.config;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
@@ -29,7 +29,7 @@ import java.util.Properties;
 @Configuration
 @EnableWebMvc
 @PropertySource("classpath:db.properties")
-@ComponentScan(value = "org.xrave")
+@ComponentScan(value = "org.asentors")
 @EnableTransactionManagement
 public class AppConfig implements WebMvcConfigurer {
 

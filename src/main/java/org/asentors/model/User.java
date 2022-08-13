@@ -1,6 +1,4 @@
-package org.xrave.model;
-
-import org.springframework.stereotype.Component;
+package org.asentors.model;
 
 import javax.persistence.*;
 

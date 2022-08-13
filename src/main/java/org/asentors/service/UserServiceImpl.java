@@ -1,10 +1,9 @@
-package org.xrave.service;
+package org.asentors.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-import org.xrave.dao.UserDao;
-import org.xrave.model.User;
+import org.asentors.dao.UserDao;
+import org.asentors.model.User;
 
 import java.util.List;
 @Service

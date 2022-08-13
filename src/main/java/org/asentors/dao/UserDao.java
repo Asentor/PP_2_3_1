@@ -1,10 +1,10 @@
-package org.xrave.service;
+package org.asentors.dao;
 
+import org.asentors.model.User;
 
-import org.xrave.model.User;
 import java.util.List;
 
-public interface UserService {
+public interface UserDao {
     void create(User usr);
     List getAllUsers();
     void update(User usr);

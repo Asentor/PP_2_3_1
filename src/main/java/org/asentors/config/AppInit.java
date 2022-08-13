@@ -1,4 +1,4 @@
-package org.xrave.config;
+package org.asentors.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
